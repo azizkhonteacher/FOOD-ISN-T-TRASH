@@ -159,7 +159,7 @@ button:active {
   background-color: #00945E;
   border-radius: 32px;
   padding: 15px 24px 13px;
-  color: #F8F4EB;
+  color: #f8f4eb;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 14px;
@@ -232,5 +232,99 @@ button:active {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.4;
+  letter-spacing: 0.4;
+}
+
+.wasted-food {
+  background-color: #f8f4eb;
+  padding: 167px 0 20px;
+}
+.wasted-food .wasted-food-body {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  gap: 150px;
+  background: url("../img/wasted-bg-img.svg") center/cover no-repeat;
+  padding: 30px 60px 350px;
+  height: 613px;
+}
+.wasted-food .wasted-food-body .title {
+  color: #4E260D;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 54px;
+  line-height: 0.9;
+  letter-spacing: 0.4;
+  width: 327px;
+}
+.wasted-food .wasted-food-body .ld {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.wasted-food .wasted-food-body .ld .text {
+  color: #4E260D;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.35;
+  letter-spacing: 0.4;
+  width: 500px;
+  padding: 0 0 25px;
+}
+.wasted-food .wasted-food-body .ld .wasted-food-Btn {
+  border: none;
+  background-color: #00945E;
+  border-radius: 32px;
+  padding: 15px 24px 13px;
+  color: #FEFCF5;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.4;
+  letter-spacing: 0.4;
+}
+
+.Mill {
+  background-color: #e2dac6;
+}
+.Mill .container {
+  background: url("../img/Mill-bg-img.svg") center/cover no-repeat;
+  padding: 198px 0 208px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.Mill .title {
+  color: #4E260D;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 70px;
+  line-height: 1.05;
+  letter-spacing: 0.4;
+  width: 733px;
+}
+.Mill .text {
+  color: #4E260D;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.35;
+  letter-spacing: 0.4;
+  width: 681px;
+  padding: 20px 0 30px;
+}
+.Mill .Mill-Btn {
+  border: none;
+  background-color: #00945E;
+  border-radius: 32px;
+  padding: 15px 24px 13px;
+  color: #011C23;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 1.6;
   letter-spacing: 0.4;
 }/*# sourceMappingURL=main.css.map */
