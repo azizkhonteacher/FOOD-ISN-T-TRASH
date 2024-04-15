@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+.container{
+    // max-width: 1120px;
+    max-width: 1160px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+button{
+    display: flex;
+    cursor: pointer;
+    &:active{
+        opacity: 0.8;
+    }
+}
+
+
+@import "./values-mixin";
+@import "./hero";
+@import "./mainAll";
