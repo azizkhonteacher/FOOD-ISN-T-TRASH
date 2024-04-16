@@ -1,6 +1,7 @@
 .main {
   display: flex;
   flex-direction: column;
+  height: 100%;
 }
 
 .outSmart {
@@ -338,6 +339,31 @@
         height: 24px;
         object-fit: cover;
       }
+    }
+  }
+
+  .pastki-link{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    .lkn{
+      display: flex;
+      gap: 32px;
+      align-items: center;  
+      a{
+        color: $color-1;
+        @include font(400, 12, 1.2);
+
+        &:hover{
+          opacity: 0.8;
+        }
+      }
+    }
+
+    .text{
+      color: $color-1;
+      @include font(400, 14, 1.2);
     }
   }
 }

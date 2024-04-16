@@ -78,6 +78,7 @@ button:active {
 .main {
   display: flex;
   flex-direction: column;
+  height: 100%;
 }
 
 .outSmart {
@@ -468,4 +469,33 @@ button:active {
   height: 24px;
   -o-object-fit: cover;
      object-fit: cover;
+}
+.bottom-part .pastki-link {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.bottom-part .pastki-link .lkn {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+}
+.bottom-part .pastki-link .lkn a {
+  color: #FEFCF5;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.2;
+  letter-spacing: 0.4;
+}
+.bottom-part .pastki-link .lkn a:hover {
+  opacity: 0.8;
+}
+.bottom-part .pastki-link .text {
+  color: #FEFCF5;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.4;
 }/*# sourceMappingURL=main.css.map */
