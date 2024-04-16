@@ -327,4 +327,81 @@ button:active {
   font-size: 17px;
   line-height: 1.6;
   letter-spacing: 0.4;
+}
+
+.stay-loop {
+  padding: 44px 0 71px;
+  background-color: #DFFF84;
+}
+.stay-loop .container {
+  display: flex;
+  justify-content: space-between;
+  gap: 150px;
+  flex-wrap: wrap;
+  align-items: start;
+}
+.stay-loop .title {
+  color: #20493E;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 54px;
+  line-height: 1.03;
+  letter-spacing: 0.4;
+}
+.stay-loop .stay-loop-submit {
+  display: flex;
+  flex-direction: column;
+  width: 525px;
+  align-items: start;
+  gap: 11px;
+}
+.stay-loop .stay-loop-submit .stay-loop-form {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+.stay-loop .stay-loop-submit .stay-loop-form button {
+  display: flex;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: #20493E;
+  border: none;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  right: 0;
+}
+.stay-loop .stay-loop-submit .stay-loop-form button img {
+  width: 31px;
+  height: 31px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.stay-loop .stay-loop-submit .stay-loop-form #s-l-f-input {
+  position: relative;
+  display: flex;
+  width: 100%;
+  background: none;
+  border: 0;
+  outline: none;
+  padding: 24px 50px 25px 0;
+  border-bottom: 1px solid #011C23;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.4;
+  letter-spacing: 0.4;
+  color: #20493E;
+}
+.stay-loop .stay-loop-submit .text {
+  color: #20493E;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 1.5;
+  letter-spacing: 0.4;
+  padding-top: 11px;
 }/*# sourceMappingURL=main.css.map */
