@@ -440,6 +440,7 @@ button:active {
   flex-direction: column;
   gap: 15px;
   text-transform: uppercase;
+  justify-content: center;
 }
 .bottom-part .links-a ul li:first-child {
   padding-top: 10px;
