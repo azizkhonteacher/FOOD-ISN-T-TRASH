@@ -409,4 +409,62 @@ button:active {
 .bottom-part {
   background-color: #20493E;
   padding: 36px 0 31px;
+}
+.bottom-part .container {
+  display: flex;
+  flex-direction: column;
+  gap: 160px;
+  align-items: start;
+}
+.bottom-part .links {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  gap: 360px;
+}
+.bottom-part .links-a {
+  display: flex;
+  align-items: start;
+  gap: 70px;
+  flex-wrap: wrap;
+}
+.bottom-part .links-a ul {
+  color: #FEFCF5;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.3;
+  letter-spacing: 0.4;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  text-transform: uppercase;
+}
+.bottom-part .links-a ul li:first-child {
+  padding-top: 10px;
+}
+.bottom-part .links-a ul li a {
+  color: #DFFF84;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.1;
+  letter-spacing: 0.4;
+  text-transform: capitalize;
+}
+.bottom-part .links-a ul li a:hover {
+  opacity: 0.8;
+  color: #DFEDDD;
+}
+.bottom-part .links-icons {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.bottom-part .links-icons img {
+  width: 24px;
+  height: 24px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }/*# sourceMappingURL=main.css.map */

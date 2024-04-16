@@ -287,4 +287,56 @@
 .bottom-part{
   background-color: $color-8;
   padding: 36px 0 31px;
+  .container{
+    display: flex;
+    flex-direction: column;
+    gap: 160px;
+    align-items: start;
+  }
+  .links{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    gap: 360px;
+
+    &-a{
+      display: flex;
+      align-items: start;
+      gap: 70px;
+      flex-wrap: wrap;
+
+      ul{
+        color: $color-1;
+        @include font(500, 20, 1.3);
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        text-transform: uppercase;
+        li:first-child{
+          padding-top: 10px;
+        }
+        li a{
+          color: $color-2;
+          @include font(400, 18, 1.1);
+          text-transform: capitalize;
+          &:hover{
+            opacity: 0.8;
+            color: $color-4;
+          }
+        }
+      }
+    }
+
+    &-icons{
+      display: flex;  
+      align-items: center;
+      gap: 24px;
+      img{
+        width: 24px;
+        height: 24px;
+        object-fit: cover;
+      }
+    }
+  }
 }
