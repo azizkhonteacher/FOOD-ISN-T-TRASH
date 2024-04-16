@@ -404,4 +404,9 @@ button:active {
   line-height: 1.5;
   letter-spacing: 0.4;
   padding-top: 11px;
+}
+
+.bottom-part {
+  background-color: #20493E;
+  padding: 36px 0 31px;
 }/*# sourceMappingURL=main.css.map */
